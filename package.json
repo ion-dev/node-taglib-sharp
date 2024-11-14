@@ -1,7 +1,7 @@
 {
   "name": "taglib-sharp-fix",
   "description": "Read and write audio/video/picture tags using a similar interface to TagLib#",
-  "version": "5.2.4",
+  "version": "5.2.5",
   "license": "LGPL-2.1-or-later",
   "author": "ion-dev",
   "repository": {
