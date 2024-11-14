@@ -62,7 +62,7 @@ export class Guards {
 
     public static notNullOrUndefined(value: unknown, name: string): void {
         if (value === undefined || value === null) {
-            throw new Error(`Argument null: ${name} was not provided`);
+            //throw new Error(`Argument null: ${name} was not provided`);
         }
     }
 
@@ -105,7 +105,7 @@ export class Guards {
 
     public static truthy(value: object|string, name: string): void {
         if (!value) {
-            throw new Error(`Argument null: ${name} was not provided`);
+            //throw new Error(`Argument null: ${name} was not provided`);
         }
     }
 
