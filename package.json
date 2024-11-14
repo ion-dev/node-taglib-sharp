@@ -1,11 +1,16 @@
 {
-  "name": "node-taglib-sharp",
+  "name": "taglib-sharp-fix",
   "description": "Read and write audio/video/picture tags using a similar interface to TagLib#",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "license": "LGPL-2.1-or-later",
-  "author": "Ben Russell <benrr101@outlook.com> (https://github.com/benrr101)",
-  "repository": "github:benrr101/node-taglib-sharp",
-  "bugs": "https://github.com/benrr101/node-taglib-sharp/issues",
+  "author": "ion-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ion-dev/node-taglib-sharp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ion-dev/node-taglib-sharp/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -51,5 +56,9 @@
     "typedoc-plugin-markdown": "^3.14.0",
     "typemoq": "^2.1.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/ion-dev/node-taglib-sharp#readme"
 }
